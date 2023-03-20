@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tourism in Afghanistan</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="head">
+      <h1>About Afghanistan Country .</h1>
+    </header>
+
+    <div class="header" id="myHeader">
+      <div class="nav">
+        <a href="tourist-sites.html">About</a>
+        <a href="afghan-people.html">Afghan People</a>
+        <a href="fanous-dishes.html">Famous dishes</a>
+        <a href="Map.html">Map</a>
+        <a href="form.html"
+          ><img src="imge/ایکون2.png" alt="login" width="60px" height="40px"
+        /></a>
+      </div>
+    </div>
+
+    <div class="form-1">
+      <h1><em>Introducing you </em></h1>
+      <p id="praghraph"><em>Thank you for your feedback. </em></p>
+      <br />
+      <form action="">
+        <label for="name-id"></label>
+        <input
+          type="text"
+          id="name-id"
+          name="name"
+          placeholder="Enter Your name"
+        />
+        <label for="email-id"></label>
+        <input
+          type="email"
+          id="email-id"
+          name="email"
+          placeholder="Enter Your Email"
+        />
+        <label for="Age-id"></label>
+        <input type="age" id="Age-id" name="Age" placeholder="Enter Your Age" />
+        <p>Gender :</p>
+        <label class="inline-lable">
+          <input type="radio" name="radio" class="input-inline" />
+          female
+        </label>
+        <label class="inline-lable">
+          <input type="radio" name="radio" class="input-inline" />
+          male
+        </label>
+
+        <p>In which country do you live?</p>
+        <select>
+          <option>choose</option>
+          <option>pakistan</option>
+          <option>iran</option>
+          <option>Turkey</option>
+          <option>Italy</option>
+          <option>England</option>
+          <option>Syria</option>
+          <option>New Zealand</option>
+          <option>Bangladesh</option>
+          <option>France</option>
+          <option></option>
+        </select>
+        <p>Which city in Afghanistan would you like to visit?</p>
+        <label class="inline-lable">
+          <input type="checkbox" class="input-inline" />
+          Herat
+        </label>
+        <label class="inline-lable">
+          <input type="checkbox" class="input-inline" />
+          kabul
+        </label>
+        <label class="inline-lable">
+          <input type="checkbox" class="input-inline" />
+          kandahar
+        </label>
+        <label class="inline-lable">
+          <input type="checkbox" class="input-inline" />
+          balkh
+        </label>
+        <label class="inline-lable">
+          <input type="checkbox" class="input-inline" />
+          kondoz
+        </label>
+        <label class="inline-lable">
+          <input type="checkbox" class="input-inline" />
+          bamian
+        </label>
+        <label class="inline-lable">
+          <input type="checkbox" class="input-inline" />
+          pansher
+        </label>
+        <p>Write your opinion about Afghanistan.</p>
+        <label for="comment-id">Comment</label>
+        <textarea
+          id="comment-id"
+          placeholder="Enter Your comment here...."
+        ></textarea>
+        <button type="submit">Send to us</button>
+      </form>
+    </div>
+
+    <script>
+      window.onscroll = function () {
+        myFunction();
+      };
+
+      var header = document.getElementById("myHeader");
+      var sticky = header.offsetTop;
+
+      function myFunction() {
+        if (window.pageYOffset > sticky) {
+          header.classList.add("sticky");
+        } else {
+          header.classList.remove("sticky");
+        }
+      }
+    </script>
+  </body>
+</html>

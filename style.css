@@ -1,0 +1,255 @@
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  background-color: lightsteelblue;
+}
+.head {
+  background-image: url("https://hamsenfi.com/wp-content/uploads/2021/04/f168861575f1214cdeace78bea5c179b.jpg");
+  background-size: cover;
+  color: #fff;
+  font-size: 1.5vw;
+  text-align: center;
+  padding: 12%;
+}
+
+.header {
+  padding: 20px;
+  background-color: #29465b;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  border-radius: 30px;
+  padding-top: 15px;
+}
+.nav a:hover {
+  background-color: beige;
+  color: dimgrey;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.content {
+  background-color: lightsteelblue;
+  width: 100%;
+  height: auto;
+}
+.sidebar {
+  background-color: azure;
+  margin-right: 10%;
+  width: 25%;
+  height: auto;
+  float: right;
+  padding-top: 30px;
+}
+.main-content {
+  background-color: snow;
+  width: 50%;
+  height: auto;
+  margin-left: 10%;
+  float: left;
+  padding-left: 3%;
+  padding-right: 2%;
+  padding-top: 30px;
+}
+.img-class {
+  width: 80%;
+  padding-top: 20px;
+}
+.title-sidebar {
+  text-align: center;
+  font-size: x-large;
+  font-family: cursive;
+}
+.poto {
+  width: 100%;
+}
+.footer {
+  background-color: #29465b;
+  width: 100%;
+  height: auto;
+  padding-top: 30px;
+  display: flex;
+  line-height: 25px;
+}
+.text-footer {
+  text-align: center;
+  color: #fff;
+}
+.footer a {
+  color: midnightblue;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #000;
+  padding-top: 15px;
+}
+.nav a:hover {
+  background-color: snow;
+  color: dimgrey;
+}
+.footer {
+  background-color: #29465b;
+  padding-top: 30px;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  line-height: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 43%;
+}
+
+.footer a {
+  color: midnightblue;
+}
+
+.form-1 {
+  background-color: snow;
+  margin: 0% 10% 0% 15%;
+  text-align: center;
+  padding: 20px;
+}
+#praghraph {
+  text-align: center;
+  font-size: larger;
+}
+.inline-lable {
+  display: inline;
+}
+input,
+select {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.input-inline {
+  width: unset;
+  height: unset;
+  margin-bottom: 10px;
+}
+
+button {
+  margin: auto;
+  background-color: slategrey;
+  color: aliceblue;
+  border-radius: 4px;
+  border-color: aliceblue;
+}
+label,
+button {
+  display: block;
+}
+.inline-lable {
+  display: inline;
+}
+
+textarea {
+  width: 100%;
+  height: 70px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+/* Afghan people */
+.people {
+  background-color: snow;
+  width: 80%;
+  margin: 0% 10% 0% 10%;
+  padding: 20px 20px;
+  height: 1750px;
+}
+.afghan-people {
+  float: left;
+  width: 200px;
+  padding-right: 10px;
+}
+.Table-people {
+  background-color: blanchedalmond;
+  width: 600px;
+  height: 190px;
+  float: left;
+}
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+tr:hover {
+  background-color: lightblue;
+}
+th {
+  background-color: lightskyblue;
+  font-size: larger;
+}
+.picter img {
+  width: 200px;
+}
+.picter {
+  background-color: blanchedalmond;
+  float: right;
+  width: 450px;
+  height: 300px;
+}
+.map {
+  background-color: snow;
+  width: 80%;
+  margin: 0% 10% 0% 10%;
+  padding: 20px 20px;
+  text-align: center;
+}
+.map img {
+  width: 60%;
+}
+.food {
+  background-color: snow;
+  margin: 0% 10% 0% 10%;
+  padding: 20px 20px;
+  text-align: center;
+}
+.food h1 {
+  max-width: 800px;
+  text-align: center;
+  margin: 0 auto;
+}
+.Afghan-food1 {
+  font-size: 15px;
+  font-family: playfairdisplay;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #c39f76;
+  padding-bottom: 40px;
+  letter-spacing: 2.4px;
+}
+.Afghan-food2 {
+  display: block;
+  font-size: 34px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 55px;
+}
+.Afghan-food3 {
+  display: block;
+  font-size: 46px;
+  line-height: 55px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.border {
+  margin-top: 20px;
+}

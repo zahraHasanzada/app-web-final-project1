@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tourism in Afghanistan</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+      <header class="head">
+        <h1>About Afghanistan Country .</h1>
+      </header>
+
+   <div class="header" id="myHeader">
+      <div class="nav">
+        <a href="tourist-sites.html">About</a>
+        <a href="afghan-people.html">Afghan People</a>
+        <a href="fanous-dishes.html">Famous dishes</a>
+        <a href="Map.html">Map</a>
+        <a href="form.html"><img src="imge/ایکون2.png" alt="login"  width="60px" height="40px"/></a>
+      </div>
+   </div>
+   <div class="map">
+      <h1>Afghanistan Map</h1>
+      <img src="imge/نقشه.jpg" alt=""></img>
+      <h1>Afghanistan </h1>
+      <img src="imge/نقشه طبیعی.jpg" alt=""></img>
+      <h1>Afghanistan map in the world</h1>
+      <img src="imge/map.jpg" alt=""></img>
+   </div>
+
+   <script>
+    window.onscroll = function () {
+      myFunction();
+    };
+
+    var header = document.getElementById("myHeader");
+    var sticky = header.offsetTop;
+
+    function myFunction() {
+      if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+      } else {
+        header.classList.remove("sticky");
+      }
+    }
+  </script>
+  </body>
+ </html>

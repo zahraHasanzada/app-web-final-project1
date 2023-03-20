@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tourism in Afghanistan</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header" id="myHeader">
+      <div class="nav">
+        <a href="tourist-sites.html">About</a>
+        <a href="afghan-people.html">Afghan People</a>
+        <a href="famous-dishes.html">Famous dishes</a>
+        <a href="Map.html">Map</a>
+        <a href="form.html"
+          ><img src="imge/ایکون2.png" alt="login" width="60px" height="40px"
+        /></a>
+      </div>
+    </div>
+
+    <div class="food">
+      <h1>
+        <span class="Afghan-food1">What do eat in Afghanistan ?</span>
+        <span class="Afghan-food2"> 10 Most Popular</span>
+        <span class="Afghan-food3">Afghan Foods</span>
+      </h1>
+      <i class="border"></i>
+      <h2>01 Asafoetida</h2>
+      <img
+        src="https://cdn.tasteatlas.com//images/ingredients/b9d0af5944604fbabf9a26cfd5cca46e.jpg?w=905&h=510"
+        alt=""
+      />
+      <h2>02 chopan kabob</h2>
+      <img
+        src="https://cdn.tasteatlas.com//Images/Dishes/91b0bccf225b4dff846ffc26cd6767bf.jpg?w=905&h=510"
+        alt=""
+      />
+      <h2>03 Aushak</h2>
+      <img
+        src="https://cdn.tasteatlas.com//Images/Dishes/2a0c71064bd54d089976b2ea92b5af07.jpg?w=905&h=510"
+        alt=""
+      />
+      <h2>04 Mastawa</h2>
+      <img
+        src="https://cdn.tasteatlas.com//Images/Dishes/8e459f95ce2c4861ab0bbbbf8224bda8.jpg?w=905&h=510"
+        alt=""
+      />
+      <h2>05 Borani kadoo</h2>
+      <img
+        src="https://cdn.tasteatlas.com//images/dishes/92b901d3023f4c0f9ec60b053fa7a03c.jpg?w=905&h=510"
+        alt=""
+      />
+      <h2>06 Afghan mantu</h2>
+      <img
+        src="https://cdn.tasteatlas.com//images/dishes/f60d4b3121da41adbec15cbcb25bc8a7.jpg?w=905&h=510"
+        alt=""
+      />
+      <h2>07 Gosh-e fil</h2>
+      <img
+        src="https://cdn.tasteatlas.com//images/dishes/fdc258041d53467c901507572d557227.jpg?w=905&h=510"
+        alt=""
+      />
+      <h2>08 Borani banjan</h2>
+      <img
+        src="https://cdn.tasteatlas.com//Images/Dishes/4b2a220f583d48df8a41ed7b13b44667.jpg?w=905&h=510"
+        alt=""
+      />
+      <h2>09 Kabuli pulao</h2>
+      <img
+        src="https://cdn.tasteatlas.com//Images/Dishes/db17e2af35a0422b86622fe636daac10.jpg?w=905&h=510"
+        alt=""
+      />
+      <h2>Bolani</h2>
+      <img
+        src="https://cdn.tasteatlas.com//Images/Dishes/5f424508b3e2467fb518128733213f4b.jpg?w=905&h=510"
+        alt=""
+      />
+    </div>
+
+    <script>
+      window.onscroll = function () {
+        myFunction();
+      };
+
+      var header = document.getElementById("myHeader");
+      var sticky = header.offsetTop;
+
+      function myFunction() {
+        if (window.pageYOffset > sticky) {
+          header.classList.add("sticky");
+        } else {
+          header.classList.remove("sticky");
+        }
+      }
+    </script>
+  </body>
+</html>
